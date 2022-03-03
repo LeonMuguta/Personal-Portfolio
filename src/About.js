@@ -2,7 +2,7 @@ import myPicture from "./Images/profilePicture.jpg";
 
 const About = () => {
     return (
-        <div className="container" id="abou">
+        <div className="container" id="aboutSec">
             <div className="leftItem">
                 <img src={myPicture} alt="Tadiwa Muguta" className="portfolioPic" />
                 <hr />

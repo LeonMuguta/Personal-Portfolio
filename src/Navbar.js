@@ -3,9 +3,9 @@ const Navbar = () => {
         <div className="navigation">
             <h1 className="title">TLM - Portfolio</h1>
             <ul className="navList">
-                <li><a href="#about">About</a></li>
+                <li><a href="#aboutSec">About</a></li>
                 <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#contactSec">Contact</a></li>
             </ul>
         </div>
     );
