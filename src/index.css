@@ -109,6 +109,32 @@ hr {
   margin: 0;
 }
 
+/* Projects Section */
+
+.projectsSection {
+  background-color: #E83A14;
+  text-align: center;
+}
+
+.projectsHeading {
+  margin: 0;
+  padding: 30px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.columns {
+  flex: 33.3%;
+
+  margin: 30px 0;
+}
+
 /* Contact Section */
 
 .contact {
@@ -123,11 +149,13 @@ hr {
   font-size: 2.7em;
   margin: 0;
   padding: 50px 0 30px 0;
+  color: #fff;
 }
 
 .contact h4 {
   font-size: 1.3em;
   margin-top: 0;
+  color: #fff;
 }
 
 .social-buttons {
@@ -170,14 +198,38 @@ hr {
   .container {
     flex-direction: column;
   }
+  .columns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .columns img {
+    padding: 0 30px;
+  }
   .contact {
     height: 40em;
   }
   .social-buttons {
     flex-direction: column;
     margin-top: 50px;
+    padding: 0;
   }
   .social-buttons li {
     margin-bottom: 80px;
+  }
+  .social-buttons a {
+    margin-right: 0;
+
+  }
+}
+
+@media (max-width: 650px) {
+  .title {
+    float: none;
+    text-align: center;
+  }
+  .navList {
+    display: none;
   }
 }
