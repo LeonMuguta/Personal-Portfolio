@@ -1,4 +1,4 @@
-import myPicture from "./Images/profilePicture.jpg";
+import myPicture from "./Images/tadiwa.JPG";
 
 const About = () => {
     return (
