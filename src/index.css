@@ -64,7 +64,7 @@ body {
 /* About Section */
 
 .container {
-  background-image: url("https://transparenttextures.com/patterns/bedge-grunge.png");
+  /* background-image: url("https://transparenttextures.com/patterns/bedge-grunge.png"); */
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -73,19 +73,21 @@ body {
 
 .leftItem {
   background-color: #F2ECFF;
+  background-image: url("https://transparenttextures.com/patterns/bedge-grunge.png");
   padding: 50px;
   flex: 50%;
 }
 
 .rightItem {
   background-color: #879EA5;
+  background-image: url("https://transparenttextures.com/patterns/bedge-grunge.png");
   padding: 50px;
   flex: 50%;
 }
 
 .portfolioPic {
-  border-radius: 50%;
-  height: 60%;
+  /* border-radius: 50%; */
+  height: auto;
   width: 60%;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -334,5 +336,23 @@ hr {
   }
   .navList {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .columns img {
+    padding: 0;
+    width: 300px;
+  }
+  .project:hover .content-overlay {
+    width: 300px;
+  }
+  .content-details {
+    width: 300px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .project:hover .content-details {
+    width: 300px;
   }
 }
