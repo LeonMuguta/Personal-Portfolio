@@ -10,7 +10,8 @@ const collection = [
         title: "Blog Project",
         description:
         "This application is a blogging site, allowing users to add & delete their own custom blog entries",
-        stack: "Stack - HTML, CSS, JavaScript & ReactJS"
+        stack: "Stack - HTML, CSS, JavaScript & ReactJS",
+        link: "https://github.com/LeonMuguta/React-Blog-Project"
     },
     {
         id: 2,
@@ -18,7 +19,8 @@ const collection = [
         title: "Link Sortener",
         description:
         "This application can by used by users to shorten long links, for cases where they may want to share a particular webpage. This was accomplished by using the bitly API.",
-        stack: "Stack - HTML, CSS, JavaScript & ReactJS"
+        stack: "Stack - HTML, CSS, JavaScript & ReactJS",
+        link: "https://github.com/LeonMuguta/Link-Shortener"
     },
     {
         id: 3,
@@ -26,14 +28,16 @@ const collection = [
         title: "To-Do List App",
         description:
         "This is a simple to-do list app where users can input tasks they need to complete.",
-        stack: "Stack - HTML, CSS & JavaScript"
+        stack: "Stack - HTML, CSS & JavaScript",
+        link: "https://github.com/LeonMuguta/ToDoList"
     },
     {
         id: 4,
         picture: Picture4,
         title: "CRUD Application",
         description: "This is a short application where users input fruits and their weekly consumption of them. Users can also delete and update their entries.",
-        stack: "Stack - HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS & MongoDB"
+        stack: "Stack - HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS & MongoDB",
+        link: "https://github.com/LeonMuguta/MERNstack-CRUD"
     }
   ];
   
