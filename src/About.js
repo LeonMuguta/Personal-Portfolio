@@ -11,21 +11,13 @@ const About = () => {
             <div className="rightItem">
                 <h1 className="position">Junior Web Developer</h1>
                 <hr />
-                <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam dignissim metus, 
-                eget mollis quam pulvinar sed. Nunc pellentesque ligula augue, id lobortis tortor rhoncus quis. 
-                Duis euismod orci sed velit auctor feugiat. Vivamus sit amet quam et metus pulvinar bibendum at eu mauris. 
-                Nunc vel venenatis urna. Vivamus condimentum mauris ut neque luctus cursus vitae at orci. 
-                Quisque sed nunc et massa accumsan ultricies.
+                <p className="description">Hey there! 👋🏾 My name's Tadiwa Leon Muguta, and I'm a junior developer.
+                Focused on web development & software engineering. Currently I'm primarily focused on becoming a full-stack developer,
+                as well as learning additional languages and frameworks on top of what I already know. I love to code, build applications,
+                as well as learning and exploring as much as I can when it comes to topics and challenges I've never experienced before.
+                I'm always trying to learn, build, grow & become better in this field every day! 👨🏾‍💻</p>
 
-                Curabitur id maximus tellus. 
-                Phasellus rutrum elit quis justo pretium gravida. 
-                Praesent commodo elit at leo convallis consequat. Phasellus bibendum placerat volutpat. 
-                Proin ultrices nunc ut nibh hendrerit, id pretium lacus luctus. 
-                Curabitur quis sapien quis orci varius porttitor a in lectus. 
-                Vestibulum vitae metus turpis. Etiam est elit, accumsan at egestas eu, interdum ac dui. 
-                Vivamus mollis, justo id laoreet iaculis, urna nisl consequat nunc, ac tempor nunc neque id nunc. 
-                Fusce dignissim, lectus in tempor tincidunt, leo ante tincidunt odio, a pharetra ligula nibh sit amet tortor. 
-                Nulla auctor pharetra convallis. Duis id tempus elit, vitae mattis ante.</p>
+                <p className="description">My current tech stack: <b>HTML, CSS, JavaScript, Java, Python, ReactJS, NodeJS, ExpressJS & MongoDB</b></p>
             </div>
         </div>
     );
