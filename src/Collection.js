@@ -2,6 +2,7 @@ import Picture1 from "./Images/blog-project.PNG";
 import Picture2 from "./Images/link-shortener.PNG";
 import Picture3 from "./Images/todolist.PNG";
 import Picture4 from "./Images/crudapp.PNG";
+import Picture5 from "./Images/sneaker-bot.PNG";
 
 const collection = [
     {
@@ -38,6 +39,14 @@ const collection = [
         description: "This is a short application where users input fruits and their weekly consumption of them. Users can also delete and update their entries.",
         stack: "Stack - HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS & MongoDB",
         link: "https://github.com/LeonMuguta/MERNstack-CRUD"
+    },
+    {
+        id: 5,
+        picture: Picture5,
+        title: "Sneaker Bot",
+        description: "This application is a sneaker bot that I programmed to reserve sneakers to your cart before they sell out. This bot works on the adidas.co.za website specifically for those who are fans of Yeezy's. The bot places ypur specific size in your cart before they sell out",
+        stack: "Stack - Python & Selenium",
+        link: "https://github.com/LeonMuguta/python-sneaker-bot"
     }
   ];
   
