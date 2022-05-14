@@ -350,21 +350,15 @@ hr {
     margin-left: 0;
     position: static;
   }
+  .portfolioPic {
+    width: 80%;
+  }
   .navList {
     display: none;
   }
 }
 
 @media (max-width: 400px) {
-  /* .name {
-    font-size: 2.4em;
-  }
-  .position {
-    font-size: 2em;
-  }
-  .description {
-    font-size: 17px;
-  } */
   .columns img {
     padding: 0;
     width: 300px;
@@ -384,12 +378,6 @@ hr {
     color: #fff;
     font-size: 0.5em;
   }
-  /* .contact h4 {
-    font-size: 1.1em;
-  }
-  .footer {
-    font-size: small;
-  } */
 }
 
 @media (max-width: 300px) {
