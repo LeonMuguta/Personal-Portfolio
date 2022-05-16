@@ -3,6 +3,7 @@ import Picture2 from "./Images/link-shortener.PNG";
 import Picture3 from "./Images/todolist.PNG";
 import Picture4 from "./Images/crudapp.PNG";
 import Picture5 from "./Images/sneaker-bot.PNG";
+import Picture6 from "./Images/weather-app.gif";
 
 const collection = [
     {
@@ -47,6 +48,14 @@ const collection = [
         description: "This application is a sneaker bot that I programmed to reserve sneakers to your cart before they sell out. This bot works on the adidas.co.za website specifically for those who are fans of Yeezy's. The bot places ypur specific size in your cart before they sell out",
         stack: "Stack - Python & Selenium",
         link: "https://github.com/LeonMuguta/python-sneaker-bot"
+    },
+    {
+        id: 6,
+        picture: Picture6,
+        title: "Weather App",
+        description: "This weather app was just a short project that I developed just to familiarise myself more with APIs. This app gives you the latest weather updates on a specific location you insert. Details include the temperature, humidity, weather description, and so on. I used the openweather.org API for this project",
+        stack: "Stack - HTML, CSS, JavaScript, ReactJS",
+        link: "https://github.com/LeonMuguta/weather-app.git"
     }
   ];
   
