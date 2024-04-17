@@ -1,6 +1,6 @@
 const TechStack = () => {
     return (
-        <div className="techStackSection">
+        <div className="techStackSection" id="techStackSec">
             <h1 className="techStackHeading">Languages & Skills</h1>
             <div className="projects">
                 <div className="float-left">

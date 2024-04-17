@@ -10,8 +10,17 @@ body {
 }
 
 /* Navigation Bar */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 
 .navigation {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
   display: inline-block;
   width: 100%;
   max-width: 100%;
@@ -121,7 +130,7 @@ hr {
 .techStackSection {
   background-color: #afc9bd;
   text-align: center;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .techStackHeading {
@@ -243,6 +252,78 @@ hr {
 
 .fadeIn-top {
   top: 20%;
+}
+
+/* Mobile Dev Section */
+
+.mobProjectsHeading {
+  margin: 0;
+  padding: 10px 30px 30px 30px;
+}
+
+.mobColumns {
+  flex: 50%;
+  margin: 30px 0;
+  position: relative;
+}
+
+.mobColumns img {
+  max-width: 600px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.project .mobContent-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99;
+  max-width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.project:hover .mobContent-overlay {
+  border-radius: 15px;
+  opacity: 1;
+  max-width: 280px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.mobContent-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.project:hover .mobContent-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  width: 200px;
+}
+
+.mobContent-details p {
+  color: #fff;
+  font-size: 0.8em;
 }
 
 /* Contact Section */

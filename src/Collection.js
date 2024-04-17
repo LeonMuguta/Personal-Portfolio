@@ -53,7 +53,7 @@ const collection = [
         description: "This weather app was just a short project that I developed just to familiarise myself more with APIs. This app gives you the latest weather updates on a specific location you insert. Details include the temperature, humidity, weather description, and so on. I used the openweather.org API for this project",
         stack: "Stack - HTML, CSS, JavaScript, ReactJS",
         link: "https://github.com/LeonMuguta/weather-app.git"
-    }
+    },
   ];
   
   export default collection;
