@@ -2,7 +2,7 @@ const TechStack = () => {
     return (
         <div className="techStackSection" id="techStackSec">
             <h1 className="techStackHeading">Languages & Skills</h1>
-            <div className="projects">
+            <div className="techStacks">
                 <div className="float-left">
                     <ul class="stackList">
                         <li>HTML, CSS & JavaScript</li>

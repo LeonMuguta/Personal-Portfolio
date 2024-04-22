@@ -138,6 +138,15 @@ hr {
   padding: 30px 30px 30px 30px;
 }
 
+.techStacks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 100px 0;
+}
+
 .float-left {
   margin-right: 40px;
 }
@@ -461,6 +470,17 @@ hr {
   }
   .navList {
     display: none;
+  }
+  .techStacks {
+    flex-direction: column;
+    margin: 0 0 20px;
+  }
+  .float-left {
+    margin-right: 0;
+    width: 300px;
+  }
+  .float-right {
+    width: 300px;
   }
 }
 
