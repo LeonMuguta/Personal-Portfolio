@@ -301,7 +301,7 @@ hr {
 .project:hover .mobContent-overlay {
   border-radius: 15px;
   opacity: 1;
-  max-width: 280px;
+  width: 285px;
   left: 50%;
   transform: translate(-50%, 0);
 }
