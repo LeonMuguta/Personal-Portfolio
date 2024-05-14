@@ -12,6 +12,7 @@ const TechStack = () => {
                         <li>SQL - Microsoft SQLServer & PostgresQL</li>
                         <li>ASP.NET</li>
                         <li>Odoo Framework</li>
+                        <li>Spring Framework</li>
                         <li>Android Studio</li>
                         <li>Git & Github</li>
                     </ul>
@@ -26,6 +27,7 @@ const TechStack = () => {
                         <li>SDLC</li>
                         <li>MVC</li>
                         <li>Linux</li>
+                        <li>VS Code, Visual Studio & IntelliJ</li>
                         <li>Command Line / Terminal</li>
                     </ul>
                 </div>
